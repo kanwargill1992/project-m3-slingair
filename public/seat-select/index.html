@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0, minimal-ui" />
-        <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="../css/styles.css" />
         <title>Seat Selection</title>
     </head>
     <body>
@@ -13,7 +13,10 @@
             </div>
             <div class="flight-select">
                 <label for="flight">Flight Number :</label>
-                <input name="flight" id="flight" class="flight" type="text" placeholder="flight #" />
+                <select name="flight" id="flight" class="flight" placeholder="flight #" ><option value="">Select the flight</option></select>
+                <input type="email" name="email" id ="email-input" class="email-input" placeholder="Email">
+                <label for="email-input">Find your reservation:</label>
+                <button class="look-for" id="look-for">Search</button>
             </div>
             <div class="form-container">
                 <h2>Select your seat and Provide your information!</h2>
